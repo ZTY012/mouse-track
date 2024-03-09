@@ -6,6 +6,19 @@
 
 ## 使用方法
 
+```plain
+➜  coding git clone https://github.com/Littlefean/mouse-track.git
+Cloning into 'mouse-track'...
+remote: Enumerating objects: 145, done.
+remote: Counting objects: 100% (145/145), done.
+remote: Compressing objects: 100% (98/98), done.
+Receiving objects:  50% (73/145)used 110 (delta 42), pack-reused 0
+Receiving objects: 100% (145/145), 3.29 MiB | 55.20 MiB/s, done.
+Resolving deltas: 100% (71/71), done.
+➜  coding mouse-track
+➜  mouse-track git:(master) python ./main.py
+```
+
 运行后弹个窗，点击开始记录之后，最小化窗口，干别的事情去，干完了之后，打开窗口点击结束记录，然后会在当前目录下创建out文件夹并在out文件夹中生成轨迹图片。
 
 ## 一些有趣的截图
